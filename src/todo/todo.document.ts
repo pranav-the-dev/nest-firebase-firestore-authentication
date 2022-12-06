@@ -1,4 +1,9 @@
 export class TodoDocument {
   static collectionName = 'todos';
-  name: string;
+  toDoId: string;
+  title: string;
+  description: string;
+  question: string;
+  issue: string;
+  subIssue: string;
 }
