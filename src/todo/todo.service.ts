@@ -12,7 +12,7 @@ export class TodoService {
     public readonly firestoreService: FirestoreService
   ) {}
 
-  async createTodoFireBase(todoDocument: TodoDocument) {
+  async createTodoFirebase(todoDocument: TodoDocument) {
     const { name } = todoDocument;
 
     const toDoData = {
