@@ -5,8 +5,8 @@ import { TodoService } from './todo.service';
 export class TodoController {
   constructor(private readonly TDService: TodoService) {}
 
-  @Post('/createTodoFireBase')
-  createTodoFireBase(@Body() todosCollection: any) {
-    return this.TDService.createTodoFireBase(todosCollection);
+  @Post('/createTodoFirebase')
+  createTodoFirebase(@Body() todosCollection: any) {
+    return this.TDService.createTodoFirebase(todosCollection);
   }
 }
