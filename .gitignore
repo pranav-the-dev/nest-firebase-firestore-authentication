@@ -1,6 +1,9 @@
 # compiled output
 /dist
 /node_modules
+.env
+package-lock.json
+info.txt
 
 # Logs
 logs
